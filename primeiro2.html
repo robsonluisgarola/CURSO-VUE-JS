@@ -1,0 +1,27 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
+<div id="app">
+
+    <input type="text" v-on:input="mudarTitulo">
+
+    <p>{{titulo}}</p>
+
+</div>
+
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            titulo:'Estudando Vue'
+        },
+        methods:{
+            
+            mudarTitulo(){
+                this.titulo= event.target.value
+            }
+        }
+    })
+</script>
+
+
+
