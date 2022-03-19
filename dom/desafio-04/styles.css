@@ -13,3 +13,22 @@
 	background-color: gray;
 	width: 50px !important;
 }
+.teste1{
+
+	background-color: red;
+}
+.teste2{
+
+	width: 100px;
+	height: 100px;
+}
+.teste3{
+
+	border: 1px solid green;
+}
+ 
+.perigo{
+
+   background-color: red;
+    
+}
